@@ -44,7 +44,7 @@ if users_file is not None:
     
     
 #OpenAI APIKey
-os.environ['OPENAI_API_KEY'] = ' My Key'
+os.environ['OPENAI_API_KEY'] = 'My-Key'
 
 #OPENAI LLM instance 
 llm = OpenAI(temperature=0.1, verbose=True)
